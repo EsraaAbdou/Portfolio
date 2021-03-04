@@ -1,0 +1,22 @@
+a{
+    color: inherit;
+    text-decoration: none;
+    &:hover {
+        color: inherit;
+        text-decoration: none;
+        .page{
+            filter: grayscale(0%);
+        }
+        .card-title {
+            color: $primary;
+        }
+    }
+    .page {
+        height: 250px;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        filter: grayscale(100%);
+    }
+}
+

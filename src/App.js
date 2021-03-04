@@ -1,10 +1,22 @@
+import { Component } from 'react';
+import Main from './components/MainComponent';
 import './App.css';
 
-function App() {
-  return (
-    <div>
-    </div>
-  );
+
+class App extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+
+    };
+  }
+  render () {
+    return (
+      <div>
+        <Main />
+      </div>
+    );
+  }
 }
 
 export default App;
