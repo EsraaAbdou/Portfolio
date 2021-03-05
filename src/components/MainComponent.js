@@ -15,7 +15,7 @@ class Main extends Component {
     }
 
     onTagClick(tag) {
-      this.setState(state => {return {viewItems: state.viewItems.filter(item => item.tags.includes(tag)), filterTitle: tag}})
+      this.setState({viewItems: PORTFOLIOITEMS.filter(item => item.tags.includes(tag)), filterTitle: tag});
     }
 
     resetFilter() {
