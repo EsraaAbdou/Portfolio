@@ -1,9 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
 header {
-    color: #eee;
     .navbar-brand {
         font-family: 'Oswald', sans-serif;
-        font-size: 2rem;
+        font-size: 1.7rem;
         font-weight: bold;
+    }
+    .navbar-dark .navbar-nav .nav-link, .navbar-brand {
+        color: #eee;
+    }
+}
+
+@media (min-width: 576px) {
+    .navbar-brand {
+        font-size: 2rem;
     }
 }

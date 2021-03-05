@@ -20,7 +20,7 @@ function Header () {
 
     return(
         <header>
-            <Navbar color="primary" expand="md">
+            <Navbar dark color="primary" expand="md">
                 <div className="container-md">
                     <NavbarBrand href="/">Esraa Abdelhady</NavbarBrand>
                     <NavbarToggler onClick={toggle} />

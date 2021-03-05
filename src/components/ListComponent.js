@@ -1,6 +1,4 @@
-import { Card, CardText, CardBody, CardTitle, CardSubtitle } from 'reactstrap';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faTimes } from '@fortawesome/free-solid-svg-icons';
+import { Card, CardText, CardBody, CardTitle, CardSubtitle, Button } from 'reactstrap';
 
 function ListItem (props) {
     return (
@@ -29,11 +27,11 @@ function ListComponent (props) {
     );
 
     const filterHeader = (
-        <div className="text-primary">
-            <h2 className="d-inline-block mr-3 mb-3">showing items with <strong><u>{props.filter}</u></strong> tag</h2>
-            <span onClick={props.resetFilter} className="reset">
-                <FontAwesomeIcon icon={faTimes} size="lg" />
-            </span>
+        <div className="text-primary mb-3">
+            <h2>
+                <span className="mr-3">showing items with <strong><u>{props.filter}</u></strong> tag</span>
+                <Button color="primary" className="text-white font-weight-bold">reset</Button>
+            </h2>
         </div>
     );
 
