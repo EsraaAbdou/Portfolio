@@ -30,7 +30,7 @@ export const PORTFOLIOITEMS = [
     {
         title: "25 + 5 Clock",
         description: "FreeCodeCamp - Front End Development Libraries Projects: Build a 25 + 5 Clock",
-        link: "esraa-clock25-5.netlify.app",
+        link: "https://esraa-clock25-5.netlify.app",
         img: "clock.png",
         tags: ["React", "Bootstrap","CSS"]
     },
