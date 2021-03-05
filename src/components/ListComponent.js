@@ -29,8 +29,8 @@ function ListComponent (props) {
     );
 
     const filterHeader = (
-        <div>
-            <h2 className="d-inline-block mr-3 mb-3">Showing items with <strong><u>{props.filter}</u></strong> tag</h2>
+        <div className="text-primary">
+            <h2 className="d-inline-block mr-3 mb-3">showing items with <strong><u>{props.filter}</u></strong> tag</h2>
             <span onClick={props.resetFilter} className="reset">
                 <FontAwesomeIcon icon={faTimes} size="lg" />
             </span>
