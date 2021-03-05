@@ -1,31 +1,46 @@
 import { Card, CardText, CardBody, CardTitle, CardSubtitle } from 'reactstrap';
-import { PORTFOLIOITEMS } from '../shared/portfolioItems';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faTimes } from '@fortawesome/free-solid-svg-icons';
 
 function ListItem (props) {
     return (
         <article className="col-md-4 mb-5">
-            <a href={props.link} target="_blank" rel="noreferrer">
                 <Card className="h-100">
-                <div className="page" style={{backgroundImage: `url('/assets/images/${props.img}')`}}></div>
-                    <CardBody>
-                        <CardTitle tag="h5">{props.title}</CardTitle>
+                    <a href={props.link} target="_blank" rel="noreferrer">  
+                        <div className="page" style={{backgroundImage: `url('/assets/images/${props.img}')`}}></div>
+                        <CardTitle tag="h5" className="pl-4 pt-4">{props.title}</CardTitle>
+                    </a>
+                    <CardBody className="px-4 py-2">
                         <CardText>{props.desc}</CardText>
                         <CardSubtitle tag="h6" className="mb-2 text-muted">
-                            {props.tags.map(tag =><span className="badge bg-secondary text-white mr-1">#{tag}</span>)}
+                            {props.tags.map((tag, idx) =><span key={idx} className="badge bg-secondary text-white mr-1"
+                            onClick={()=> {props.onTagClick(tag)}}>#{tag}</span>)}
                         </CardSubtitle>
                     </CardBody>
                 </Card>
-            </a>
         </article>
     );
 }
-function ListComponent () {
-    const listItems = PORTFOLIOITEMS.map(item => 
-        <ListItem title={item.title} desc={item.description} tags={item.tags} img={item.img} link={item.link} />
+function ListComponent (props) {
+
+    const listItems = props.viewItems.map((item, idx) => 
+        <ListItem key={idx} title={item.title} desc={item.description} tags={item.tags} img={item.img} link={item.link}
+            onTagClick={props.onTagClick} />
     );
+
+    const filterHeader = (
+        <div>
+            <h2 className="d-inline-block mr-3 mb-3">Showing items with <strong><u>{props.filter}</u></strong> tag</h2>
+            <span onClick={props.resetFilter} className="reset">
+                <FontAwesomeIcon icon={faTimes} size="lg" />
+            </span>
+        </div>
+    );
+
     return(
         <section className="my-5">
             <div className="container-md">
+                {(props.filter)?filterHeader:<div></div>}
                 <div className="row">
                     {listItems}
                 </div>

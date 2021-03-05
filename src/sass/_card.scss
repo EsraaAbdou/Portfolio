@@ -19,4 +19,6 @@ a{
         filter: grayscale(100%);
     }
 }
-
+.badge:hover, .reset:hover{
+    cursor: pointer;
+}
