@@ -30,7 +30,7 @@ function ListComponent (props) {
         <div className="text-primary mb-3">
             <h2>
                 <span className="mr-3">showing items with <strong><u>{props.filter}</u></strong> tag</span>
-                <Button color="primary" className="text-white font-weight-bold">reset</Button>
+                <Button color="primary" className="text-white font-weight-bold" onClick={props.resetFilter}>reset</Button>
             </h2>
         </div>
     );
