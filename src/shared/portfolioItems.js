@@ -58,10 +58,45 @@ export const PORTFOLIOITEMS = [
     {
         title: "Responsive CSS Template",
         description: "Responsive Template using HTML5 and CSS3",
-        link: "https://eloquent-kowalevski-549944.netlify.com/",
+        link: "https://eloquent-kowalevski-549944.netlify.com",
         img: "css-temp.png",
         tags: ["HTML", "CSS"]
     },
+    {
+        title: "Heat Map",
+        description: "FreeCodeCamp - Data Visualization Projects: Visualize Data with a Heat Map",
+        link: "https://d3-heatmap.netlify.app",
+        img: "heatmap.png",
+        tags: ["D3.js"]
+    },
+    {
+        title: "Bar Chart",
+        description: "FreeCodeCamp - Data Visualization Projects: Visualize Data with a Bar Chart",
+        link: "https://d3-bar-chart.netlify.app",
+        img: "bar-chart.png",
+        tags: ["D3.js"]
+    },
+    {
+        title: "Scatterplot Graph",
+        description: "FreeCodeCamp - Data Visualization Projects: Visualize Data with a Scatterplot Graph",
+        link: "https://ess-d3-scatterplot.netlify.app",
+        img: "scatterplot.png",
+        tags: ["D3.js"]
+    },
+    // {
+    //     title: "Choropleth Map",
+    //     description: "FreeCodeCamp - Data Visualization Projects: Visualize Data with a Choropleth Map",
+    //     link: "",
+    //     img: "",
+    //     tags: ["D3.js"]
+    // },
+    // {
+    //     title: "Treemap Diagram",
+    //     description: "FreeCodeCamp - Data Visualization Projects: Visualize Data with a Treemap Diagram",
+    //     link: "",
+    //     img: "",
+    //     tags: ["D3.js"]
+    // },
     // {
     //     title: "",
     //     description: "",
