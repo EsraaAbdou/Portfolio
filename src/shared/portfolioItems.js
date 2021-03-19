@@ -70,20 +70,6 @@ export const PORTFOLIOITEMS = [
         tags: ["D3.js"]
     },
     {
-        title: "Bar Chart",
-        description: "FreeCodeCamp - Data Visualization Projects: Visualize Data with a Bar Chart",
-        link: "https://d3-bar-chart.netlify.app",
-        img: "bar-chart.png",
-        tags: ["D3.js"]
-    },
-    {
-        title: "Scatterplot Graph",
-        description: "FreeCodeCamp - Data Visualization Projects: Visualize Data with a Scatterplot Graph",
-        link: "https://ess-d3-scatterplot.netlify.app",
-        img: "scatterplot.png",
-        tags: ["D3.js"]
-    },
-    {
         title: "Exercise Tracker",
         description: "FreeCodeCamp - APIs and Microservices Projects: Exercise Tracker",
         link: "https://eex-tracker.herokuapp.com",
@@ -97,6 +83,20 @@ export const PORTFOLIOITEMS = [
         link: "https://es-url-shortner.herokuapp.com/",
         img: "url-shortner.png",
         tags: ["Node.js", "Express", "MongoDB", "Mongoose"]
+    },
+    {
+        title: "Bar Chart",
+        description: "FreeCodeCamp - Data Visualization Projects: Visualize Data with a Bar Chart",
+        link: "https://d3-bar-chart.netlify.app",
+        img: "bar-chart.png",
+        tags: ["D3.js"]
+    },
+    {
+        title: "Scatterplot Graph",
+        description: "FreeCodeCamp - Data Visualization Projects: Visualize Data with a Scatterplot Graph",
+        link: "https://ess-d3-scatterplot.netlify.app",
+        img: "scatterplot.png",
+        tags: ["D3.js"]
     },
     // {
     //     title: "Choropleth Map",
