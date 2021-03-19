@@ -73,7 +73,7 @@ export const PORTFOLIOITEMS = [
         title: "Exercise Tracker",
         description: "FreeCodeCamp - APIs and Microservices Projects: Exercise Tracker",
         link: "https://eex-tracker.herokuapp.com",
-        img: "ex-tracker.png",
+        img: "ex-tracker.jpg",
         tags: ["Node.js", "Express", "MongoDB", "Mongoose"]
     },
 
