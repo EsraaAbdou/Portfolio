@@ -83,6 +83,21 @@ export const PORTFOLIOITEMS = [
         img: "scatterplot.png",
         tags: ["D3.js"]
     },
+    {
+        title: "Exercise Tracker",
+        description: "FreeCodeCamp - APIs and Microservices Projects: Exercise Tracker",
+        link: "https://eex-tracker.herokuapp.com",
+        img: "ex-tracker.png",
+        tags: ["Node.js", "Express", "MongoDB", "Mongoose"]
+    },
+
+    {
+        title: "URL Shortner",
+        description: "FreeCodeCamp - APIs and Microservices Projects: URL Shortener Microservice",
+        link: "https://es-url-shortner.herokuapp.com/",
+        img: "url-shortner.png",
+        tags: ["Node.js", "Express", "MongoDB", "Mongoose"]
+    },
     // {
     //     title: "Choropleth Map",
     //     description: "FreeCodeCamp - Data Visualization Projects: Visualize Data with a Choropleth Map",
