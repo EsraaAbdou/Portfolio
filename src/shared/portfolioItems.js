@@ -70,6 +70,41 @@ export const PORTFOLIOITEMS = [
         tags: ["D3.js"]
     },
     {
+        title: "Metric/Imperial Converter",
+        description: "FreeCodeCamp - Quality Assurance Projects: Metric/Imperial Converter",
+        link: "https://metric-imperial--converter.herokuapp.com",
+        img: "metric-imperial-converter.jpg",
+        tags: ["Node.js", "Express", "Chai.js"]
+    },
+    {
+        title: "Issue Tracker",
+        description: "FreeCodeCamp - Quality Assurance Projects: Issue Tracker",
+        link: "https://ess-issue-tracker.herokuapp.com",
+        img: "issue-tracker.jpg",
+        tags: ["Node.js", "Express", "MongoDB", "Mongoose", "Chai.js"]
+    },
+    {
+        title: "Personal Library",
+        description: "FreeCodeCamp - Quality Assurance Projects: Personal Library",
+        link: "https://es-personal-library.herokuapp.com",
+        img: "personal-library.jpg",
+        tags: ["Node.js", "Express", "MongoDB", "Mongoose", "Chai.js"]
+    },
+    {
+        title: "Sudoku Solver",
+        description: "FreeCodeCamp - Quality Assurance Projects: Sudoku Solver",
+        link: "https://es-sudoku-solver.herokuapp.com",
+        img: "sudoku.jpg",
+        tags: ["Node.js", "Express", "Chai.js"]
+    },
+    {
+        title: "American British Translator",
+        description: "FreeCodeCamp - Quality Assurance Projects: American British Translator",
+        link: "https://american-british.herokuapp.com",
+        img: "translator.jpg",
+        tags: ["Node.js", "Express", "Chai.js"]
+    },
+    {
         title: "Exercise Tracker",
         description: "FreeCodeCamp - APIs and Microservices Projects: Exercise Tracker",
         link: "https://eex-tracker.herokuapp.com",
@@ -98,6 +133,15 @@ export const PORTFOLIOITEMS = [
         img: "scatterplot.png",
         tags: ["D3.js"]
     },
+
+    // {
+    //     title: "",
+    //     description: "",
+    //     link: "",
+    //     img: "",
+    //     tags: []
+    // },
+
     // {
     //     title: "Choropleth Map",
     //     description: "FreeCodeCamp - Data Visualization Projects: Visualize Data with a Choropleth Map",
@@ -111,12 +155,5 @@ export const PORTFOLIOITEMS = [
     //     link: "",
     //     img: "",
     //     tags: ["D3.js"]
-    // },
-    // {
-    //     title: "",
-    //     description: "",
-    //     link: "",
-    //     img: "",
-    //     tags: []
-    // },
+    // }
 ];
